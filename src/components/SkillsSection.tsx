@@ -90,7 +90,7 @@ const SkillsSection = () => {
           className="text-center space-y-4"
         >
           <motion.p 
-            className="text-xl md:text-2xl text-white/80 font-light tracking-wider mb-4"
+            className="text-lg md:text-xl text-white/80 font-light tracking-wider mb-3"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -118,7 +118,7 @@ const SkillsSection = () => {
                   repeatType: "reverse",
                 }
               }}
-              className="relative inline-block text-white font-bold text-2xl md:text-3xl"
+              className="relative inline-block text-white font-bold text-xl md:text-2xl"
             >
               '쉽게'
               {/* 강렬한 언더라인 */}
@@ -134,7 +134,7 @@ const SkillsSection = () => {
           </motion.p>
           
           <motion.p 
-            className="text-xl md:text-2xl font-light tracking-wider"
+            className="text-lg md:text-xl font-light tracking-wider"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
