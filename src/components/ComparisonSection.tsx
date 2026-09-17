@@ -11,7 +11,7 @@ const ComparisonSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <p className="text-primary font-medium mb-4">✦</p>
+          <p className="text-3xl mb-4">💡</p>
           <h2 className="font-serif text-2xl md:text-4xl font-bold">
             쉽게 해결되는 이유가 뭘까?
           </h2>
@@ -53,8 +53,8 @@ const ComparisonSection = () => {
             <h3 className="text-lg font-semibold mb-6 text-primary">점술신 연애상담</h3>
             <ul className="space-y-4">
               {[
-                "상담 시 '내 마음 읽기' 들어보고 판단",
-                "들어보고 즉시 전액 환불 (2분 내 처리)",
+                "상담 시 '내 마음 읽기' 듣고 판단",
+                "들어보고 즉시 전액 환불 (2분 내)",
                 "직접 검증 한 결과로 솔루션 진행",
                 "1000자 이상의 장문 후기들",
               ].map((item, i) => (

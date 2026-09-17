@@ -5,7 +5,7 @@ const services = [
   { icon: "💔", title: "연인 갈등", desc: "근본 원인 파악으로 관계 회복" },
   { icon: "💭", title: "썸 관계", desc: "애매한 관계의 명확한 방향 제시" },
   { icon: "🔄", title: "이별 후 재회", desc: "최적의 타이밍과 접근 전략" },
-  { icon: "💑", title: "부부사이", desc: "서로의 욕망, 원하는 것 등을 분석해 관계 개선" },
+  { icon: "💑", title: "부부사이", desc: "서로 욕망, 원하는 것 등을 분석해 관계 개선" },
   { icon: "⚖️", title: "재혼/이혼", desc: "이별 위기에서 진심 확인 후 돌파구 찾기" },
 ];
 
@@ -20,11 +20,10 @@ const ServicesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <p className="text-primary font-medium mb-4">전문 분야</p>
-          <h2 className="font-serif text-2xl md:text-4xl font-bold mb-4">
-            국내에서 저만 가능한 이 기술로
+          <h2 className="font-serif text-xl md:text-3xl font-bold mb-4">
+            국내에서 저만 가능한 기술로
             <br />
-            <span className="text-gradient-primary">그 어떤 관계 문제</span>라도 쉽게 풉니다
+            <span className="text-gradient-primary">어떤 관계 문제라도</span> 쉽게 풉니다
           </h2>
         </motion.div>
 

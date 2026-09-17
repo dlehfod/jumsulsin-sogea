@@ -27,6 +27,17 @@ const StatsSection = () => {
             </motion.div>
           ))}
         </div>
+
+        {/* 하단 구분선 */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="mt-16 flex items-center justify-center"
+        >
+          <div className="w-full max-w-md h-1 rounded-full bg-gradient-to-r from-transparent via-primary to-transparent" />
+        </motion.div>
       </div>
     </section>
   );
